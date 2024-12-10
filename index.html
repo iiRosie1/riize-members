@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <title>RIIZE</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #3F3C3A;
+      }
+      
+      .header {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .riize-nav-image{
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+
+      .navbar {
+        background-color: #292929;
+        text-align: center;
+        padding: 5px 0;
+        font-family: "Sedgwick Ave", cursive;
+      }
+
+      .navbar a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        margin: 0 50px;
+        padding: 0px 25px;
+      }
+      
+      .navbar a.active {
+        color: #9c9c9c;
+      }
+
+      .navbar a:hover {
+        background-color: #3f3f3f;
+        color: #9c9c9c;
+      }
+      
+      .group-photo {
+        position: relative;
+        text-align: center; 
+        background-color: #3F3C3A;
+      }
+
+      .riize-group-photo {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+      }
+
+      .caption {
+        font-family: "Sora";
+        color: white;
+        position: absolute;
+        bottom: 30px;
+        left: 50%; 
+        transform: translateX(-50%);
+        text-align: center;
+      }
+      
+      .member-table {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        background-color: white;
+      }
+      
+      .member-table h2 {
+        font-family: "Sora";
+        font-size: 24px;
+      }
+      
+      .member-table p {
+        font-family: "Sora";
+        font-size: 18px;
+      }
+      
+      .member-table table {
+        font-family: "Sora";
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      
+      .group {
+        background-color: #111111; 
+        color: white; 
+        text-align: center; 
+        font-family: "Sora"; 
+        padding: 150px 0;
+        width: 100%; 
+      }
+
+      .group h4 {
+        font-size: 18px;
+        margin-bottom: 20px; 
+      }
+
+      .group p {
+        font-size: 14px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      .two-columns {
+        background-color: d6d6d6;
+      }
+      
+      .column {
+        background-color: #d6d6d6;
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      .column img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 50px;
+      }
+      
+      .column p {
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Sora";
+        font-size: 14px; 
+        padding: 50px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .riize-logos-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .footer {
+        background-color: #3F3C3A;
+        text-align: center;
+        color: white;
+        font-family: "Sora";
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      .footer p {
+        margin-bottom: 10px;
+      }
+
+      .email {
+        color: #a3a3a3;
+      }
+      
+      .email:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="header">
+      <img src="members.png" alt="RIIZE Header Image" class="riize-nav-image">
+    </div>
+    
+    <div class="navbar">
+      <a href="https://iirosie1.github.io/riize-about/" class="active">About</a>
+      <a href="https://iirosie1.github.io/riize-discography/">Discography</a>
+      <a href="members.html">Members</a>
+      <a href="socials.html">Socials</a>
+    </div>
+
+    <div class="group-photo">
+      <img src="riize7.png" alt="RIIZE photo" class="riize-group-photo">
+      <div>
+        <p class="caption">
+          Members from Left to Right, Top to Bottom: Seunghan, Anton, Sungchan, Eunseok, Sohee, Shotaro, Wonbin
+        </p>
+      </div>
+    </div>
+    
+    <div class="member-table">
+      <h2>RIIZE Members</h2>
+
+      <table>
+        <tr>
+          <th>MEMBER</th>
+          <th>NATIONALITY</th>
+          <th>BIRTHDATE</th>
+          <th>POSITION</th>
+        </tr>
+        <tr>
+          <td>Shotaro</td>
+          <td>Japanese</td>
+          <td>November 25th, 2000</td>
+          <td>Main Dancer</td>
+        </tr>
+        <tr>
+          <td>Eunseok</td>
+          <td>Korean</td>
+          <td>March 19th, 2001</td>
+          <td>Vocalist</td>
+        </tr>
+        <tr>
+          <td>Sungchan</td>
+          <td>Korean</td>
+          <td>September 13th, 2001</td>
+          <td>Rapper</td>
+        </tr>
+        <tr>
+          <td>Wonbin</td>
+          <td>Korean</td>
+          <td>March 2nd, 2002</td>
+          <td>Center</td>
+        </tr>
+        <tr>
+          <td>Seunghan</td>
+          <td>Korean</td>
+          <td>October 2nd, 2003</td>
+          <td>Dancer</td>
+        </tr>
+        <tr>
+          <td>Sohee</td>
+          <td>Korean</td>
+          <td>November 21st, 2003</td>
+          <td>Main Vocalist</td>
+        </tr>
+        <tr>
+          <td>Anton</td>
+          <td>American</td>
+          <td>March 21st, 2004</td>
+          <td>Maknae</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="group">
+      <h4>
+        FUN FACT
+      </h4>
+      <p>
+        Did you know? In 2020, two of RIIZE's members (Sungchan and Shotaro) were originally introduced in NCT, another group under SM entertainment. However, it was announced that they would be departing NCT and re-debuting with RIIZE. 
+      </p>
+    </div>
+    
+    <div class="footer">
+      <p>
+        website designed by 
+        <a class="email" href="mailto:r385chen@uwaterloo.ca">Rose Chen</a>
+      </p>
+    </div>
+  </body>
+</html>
